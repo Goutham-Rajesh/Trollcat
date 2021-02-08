@@ -1,0 +1,14 @@
+# Trollcat
+
+## the_sus_agent
+It was a .pcapng file. After i used to find packet from edit in the main menu and searched trollcat but couldn't find anything. 
+I decided to filter by protocoll to only see http traffic.  
+There was two images, which I can extract from the .pcapng file. 
+I used strings on one of the image and got a base64 encoded text. Then i decrypt it.
+Then used steghide on the other and got the flag :)
+## trolling_cat
+First I got a image.I used binwalk and I got a zip file inside it
+It was password protected.
+From the discription of task I got a hint password can be found in my social media
+When I searched instagram I'd of the author I got the password from his profile
+Unzipped and got the flag
